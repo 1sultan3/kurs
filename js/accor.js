@@ -28,3 +28,6 @@ accordionNavBars.forEach(nav => {
 // 1 всплытие события
 
 
+let aha;
+
+
