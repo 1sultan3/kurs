@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image{
+    display: none;
+    width: 70%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.block{
+    display: block !important;
+}
+
+.slider-arrow{
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow-left{
+    rotate: 180deg;
+}
+
+/* Accordion */
+
+.section-accordion {
+    padding-top: 100px;
+}
+
+.accordion {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.accordion-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 3px 15px;
+    background-color: #fff8e4;
+    cursor: pointer;
+}
+.nav-title {
+    font-size: 26px;
+}
+.accordion-arrow{
+    width: 20px;
+    height: 20px;
+    rotate: 90deg;
+    cursor: pointer;
+}
+.drop-info {
+    padding-bottom: 5px;
+    display: none;
+    background-color: #f4f3e0;
+}
+.top{
+    border-radius: 5px 5px 0px 0px !important;
+}
+
+.middle{
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.bottom{
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+/* timer */
+
+.section-timer {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.timer {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    background-color: #aab4ff;
+}
+.timer-title {
+    font-size: 26px;
+    color: #fff;
+}
+.time {
+    width: 30%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #7178fa;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-item{
+    padding: 0px 10px 0px 10px;
+}
+
+/* Auth Modal */
+
+.section-auth-modal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000008b;
+    z-index: 1000;
+}
+
+.auth-modal {
+    width: 50%;
+    height: 60vh;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form{
+    padding-top: 30px;
+    display: block !important;
+}
+
+.form-item{
+    width: 75%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px !important;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    outline: none;
+    margin: 0 auto;
+}
+
+.form-item::placeholder{
+    color: #000;
+}
+
+.form-btn{
+    color: #fff;
+    background-color: #8ef7ff;
+}
+
